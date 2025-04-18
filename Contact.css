@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-box {
+    background-color: #80163c;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+.contact-box h2 {
+    margin-bottom: 1rem;
+    color: #ff00d4;
+}
+
+.contact-box p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.contact-box a {
+    color: #ff00d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+.side-link {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #c5225e;
+    padding: 1rem;
+    border-radius: 0 8px 8px 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.side-link a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #eaeaea;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.side-link a:hover {
+    background-color: #d4d4d4;
+}
+.form-container {
+background-color: white;
+padding: 3rem;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+max-width: 500px;
+width: 90%;
+margin: auto;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+.form-container h2 {
+margin-bottom: 1.5rem;
+color: #80163c;
+font-size: 2rem;
+}
+
+.form-container form {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+padding: 1rem;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+resize: vertical;
+}
+
+.form-container textarea {
+min-height: 120px;
+}
+
+.form-container button {
+padding: 0.75rem 1.5rem;
+border: none;
+background-color: #80163c;
+color: white;
+font-size: 1rem;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+background-color: #a11c4a;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+background-image: url(https://images3.alphacoders.com/107/1079554.png);
+background-size: cover;
+color: #ffffff;
+line-height: 1.6;
+padding: 20px;
+}
